@@ -1,0 +1,27 @@
+.home {
+    display: block;
+    width: 210px;
+    height: 100px;
+    margin: 80px auto 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.wrap {
+    display: flex;
+    flex-flow: column;
+    margin-top: 80px;
+    
+}
+
+.content {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.item {
+    display: inline-block;
+    margin-top: 10px;
+}

@@ -1,0 +1,12 @@
+<div class="users_show">
+    <h1>My Page</h1>
+
+    <div class="content">
+        <% if user_signed_in? && @user == current_user %>
+            <%= image_tag url_for(@user.profile_image) if @user.profile_image.attached? %>
+            <h2><%= @user.name %></h2>
+        <% else %>
+            <h1>ユーザーページ</h1>
+        <% end %>
+    </div>
+</div>

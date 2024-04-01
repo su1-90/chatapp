@@ -1,0 +1,37 @@
+.sign_in {
+    display: block;
+    width: 205px;
+    height: 100px;
+    margin: 65px auto 0;
+
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        margin: 20px 0 30px;
+        font-size: 20px;
+    }
+    
+    .wrapper {
+        margin-top: 62px;
+        width: 185px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .field {
+        margin-top: 10px;
+    }
+
+    .actions {
+        margin: 10px 0 10px;
+    }
+
+    a {
+        color: #47B5FF;
+        line-height: 1.5;
+    }
+
+}

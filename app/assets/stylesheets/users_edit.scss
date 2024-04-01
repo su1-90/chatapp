@@ -1,0 +1,31 @@
+.users_edit {
+    display: block;
+    width: 205px;
+    height: 100px;
+    margin: 50px auto 0;
+    font-size: smaller;
+
+    h2 {
+        font-size: x-large;
+    }
+
+    .field {
+        margin-top: 10px;
+    }
+
+    .profile_image_label {
+        margin-top: 5px;
+    }
+
+    .actions {
+        margin-top: 5px;
+    }
+    
+    .deletion {
+        margin-top: 19px;
+    }
+
+    .delete_actions {
+        margin: 5px 0 20px;
+    }
+}
