@@ -10,4 +10,4 @@ import '@fortawesome/fontawesome-free'
 library.add(fas, far, fab)
 
 //= require jquery
-//= require jquery_ujs
+//= require jquery_ujsimport "channels"
