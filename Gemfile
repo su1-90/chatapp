@@ -75,3 +75,5 @@ gem "dartsass-rails", "~> 0.5.0"
 gem "rails-i18n"
 
 gem "devise-i18n-views"
+
+gem "jquery-rails"
