@@ -11,7 +11,12 @@
         <%else%>
         <div class="fukidasi">
             <div class="faceicon">
-            <img src="/assets/profile.png" alt="相手">
+                <% # 相手のプロフィール画像がある場合に表示する %>
+                <% if @partner.profile_image.attached? %>
+                    <%= image_tag url_for(@partner.profile_image), alt: "相手" %>
+                <% else %>
+                    <%= image_tag "/assets/default_profile.png", alt: "相手" %>
+                <% end %>
             </div>
             <div class="chatting">
             <div class="says">
